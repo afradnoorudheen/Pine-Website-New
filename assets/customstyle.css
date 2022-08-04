@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1200px) {
+  .headerSizeAdjust {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.blackStripHeader {
+  border-radius: 18px 18px 0 0;
+}
+@media only screen and (max-width: 1300px) {
+  .blackStripHeader {
+    border-radius: 0 0 0 0;
+  }
+}
+
+.topLogo {
+  height: 72px !important;
+}
+@media only screen and (max-width: 1300px) {
+  .topLogo {
+    height: 60px !important;
+  }
+}
+
+.bgThemeDark {
+  background-color: #0c313f;
+}
+
+.text-body2 {
+  color: #eaeaea !important;
+}
+
+.social-header a {
+  color: #eaeaea !important;
+}
+
+.whatsAppIcon {
+  height: 25px !important;
+  margin-top: -4px;
+  margin-right: 4px;
+}
+
+.chatButton {
+  padding: 12px 27px;
+}
+
+:root {
+  /* Give only rgb values for opacity control */
+  --title-color: #0c313f;
+}
+
+.newThemeBackground {
+  background-color: #0c313f;
+}
+
+.testimonialSection {
+  margin-top: 8em;
+}
+
+.locationSection {
+  padding-top: 0em;
+}
+
+.textColourBlue {
+  color: #6c6c6c !important;
+}
+
+.responsive-map {
+  height: 500px;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.responsive-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.darkBgBlue {
+  background-color: #0c313f;
+}
+
+.ScndMenuLogo {
+  height: 60px !important;
+}/*# sourceMappingURL=customstyle.css.map */
